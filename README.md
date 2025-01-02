@@ -6,6 +6,14 @@ An Electron based Postman made with React.
 
 ![image](https://imgur.com/yBhUlIv.png)
 
+## Browser Support
+
+Some api's might not work because of cors policy
+
+[click here to access](https://febrandt.github.io/postkidweb/)
+
+[Repo](https://github.com/Febrandt/postkidweb)
+
 ## Downloads
 
 ### [Release v1.0.0](https://github.com/Febrandt/postkid/releases)
