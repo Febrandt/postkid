@@ -6,9 +6,9 @@ An Electron based Postman made with React.
 
 ![image](https://imgur.com/yBhUlIv.png)
 
-## Releases
+## Downloads
 
-### [v1.0.0](https://github.com/Febrandt/postkid/releases)
+### [Release v1.0.0](https://github.com/Febrandt/postkid/releases)
 
 ## Project Setup
 
