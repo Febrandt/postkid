@@ -1,0 +1,142 @@
+:root {
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+html, body, #root{
+  height: 100%;
+
+  color: #d8d8d8;
+}
+
+
+section {
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  border: gray 1px solid;
+  border-radius: 5px;
+  background-color: #1e1e1e;
+  color: white;
+}
+
+input:focus{
+  border: #696969;
+  background-color: #000000;
+  outline: white 1px solid;
+}
+
+button {
+  padding: 7px 12px;
+  font-size: 14px;
+  background-color: #1e1e1e;
+  color: white;
+  border: gray 1px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled{
+  background-color: #696969;
+  color: #b2b2b2;
+  cursor: default;
+}
+button:disabled:hover{
+  background-color: #696969;
+}
+
+button:hover {
+  background-color: #020202;
+}
+
+button:active {
+  background-color: #696969;
+}
+
+select {
+  padding: 5px;
+  font-size: 14px;
+  background-color: #1e1e1e;
+  color: white;
+  border-radius: 5px;
+}
+
+select:focus {
+  background-color: black;
+  outline: white 1px solid;
+}
+
+table{
+  border:#696969 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+th {
+  position: absolute;
+  background-color: #333333;
+  border-left: 5px solid #333333;
+  border-right: 5px solid #333333;
+  border-radius: 10px;
+  translate: 10px -23px;
+}
+
+tr {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+table input {
+  flex: 1;
+}
+
+textarea {
+  padding: 5px;
+  font-size: 16px;
+  border: gray 1px solid;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  background-color: #1e1e1e;
+  color: white;
+  width: 100%;
+}
+
+textarea:focus{
+  border: #696969;
+  background-color: #000000;
+  outline: white 1px solid;
+}
+
+label {
+  background-color: #373737;
+  border: gray 1px solid;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px 5px 0px 5px;
+  position: relative;
+  
+}
+
+pre {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: gray 1px solid;
+  border-top-left-radius: 0px;
+  overflow: auto;
+}
