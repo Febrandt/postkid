@@ -1,18 +1,19 @@
 # Postkid
 
-An Electron based Postman made with React.
+An Electron based Postman made with React. 
+### 👉[Playground Here](https://febrandt.github.io/postkidweb/)
 
-![image](https://www.electronjs.org/assets/img/logo.svg) <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="150" height="120" />
+<img src="https://imgur.com/yBhUlIv.png" width="500"/> ![image](https://www.electronjs.org/assets/img/logo.svg) <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="150" height="120" />
 
-![image](https://imgur.com/yBhUlIv.png)
 
 ## Browser Support
 
 Some api's might not work because of cors policy
 
-[click here to access](https://febrandt.github.io/postkidweb/)
+[Playground](https://febrandt.github.io/postkidweb/)
 
-[Repo](https://github.com/Febrandt/postkidweb)
+### Repository
+[Febrandt/postkidweb](https://github.com/Febrandt/postkidweb)
 
 ## Downloads
 
