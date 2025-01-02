@@ -1,10 +1,14 @@
-# react
+# Postkid
 
-An Electron application with React
+An Electron based Postman made with React.
 
-## Recommended IDE Setup
+![image](https://www.electronjs.org/assets/img/logo.svg) <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="150" height="120" />
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+![image](https://imgur.com/yBhUlIv.png)
+
+## Releases
+
+### [v1.0.0](https://github.com/Febrandt/postkid/releases)
 
 ## Project Setup
 
@@ -23,12 +27,13 @@ $ npm run dev
 ### Build
 
 ```bash
-# For windows
-$ npm run build:win
+# Vite build
+$ npm run build
 
-# For macOS
-$ npm run build:mac
+# Then
+$ npm run make
 
-# For Linux
-$ npm run build:linux
+# or
+$ npm run publish
+$ npm run publish:all # Github Publisher
 ```
